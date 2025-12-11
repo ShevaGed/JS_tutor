@@ -1,1 +1,1 @@
-Tutorial about JS
+Tutorial about JS and some other tehnology
