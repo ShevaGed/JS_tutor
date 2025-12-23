@@ -107,7 +107,7 @@
 //    console.log('Error');
 //}
 
-const num = '50';
+//const num = '50';
 
 //if (num < 49) {
 //    console.log('Error');
@@ -119,24 +119,86 @@ const num = '50';
 
 //(num === 50) ? console.log('Ok') : console.log('Error');
 
-switch (num) {
-case '49':
-    console.log('Error');
-    break;
-case '100':
-    console.log('Error');
-    break;
-case '50':
-    console.log('Congretulation');
-    break;
-default:
-    console.log('No way');
-    break;
+//switch (num) {
+//case '49':
+//    console.log('Error');
+//    break;
+//case '100':
+//    console.log('Error');
+//    break;
+//case '50':
+//    console.log('Congretulation');
+//    break;
+//default:
+//    console.log('No way');
+//    break;
+//}
+    
+//const hamburger = 3;
+//const fries = 1;
+//const cola = 0;
+
+//if (hamburger === 3 && cola && fries) {
+//    console.log('Yammy');
+//}
+//else {
+//    console.log('Go out')
+//}
+
+//console.log((hamburger && cola && fries));
+    
+
+//const hamburger = 3;
+//const fries = 0;
+//const cola = 0;
+
+//if (hamburger || cola || fries) {
+//    console.log('Yammy');
+//}
+//else {
+//    console.log('Go out')
+//}
+
+//console.log((hamburger || cola || fries));
+    
+    
+//const hamburger = 3;
+//const fries = 3;
+//const cola = 0;
+//const nagets = 2;
+
+//if (hamburger === 3 && cola === 2 || fries === 3 && nagets) {
+//    console.log('Yammy');
+//}
+//else {
+//    console.log('Go out')
+//}
+
+//console.log((hamburger === 3 && cola === 2 || fries === 3 && nagets));      
+
+//let num = 50;
+
+//while (num <= 55) {
+//    console.log(num);
+//    num++;
+//}
+
+//do {
+//    console.log(num);
+//    num++;
+//}
+
+//while (num <= 55);
+
+//for (let i = 1; i < 8; i++) {
+//    console.log(num);
+//    num++;
+//}
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+	//break;
+	continue;
+    }
+    console.log(i);
 }
-    
-    
-    
-    
-    
-    
-      
